@@ -73,7 +73,7 @@ class LinkedL
 		Node curr = head;
 		while (curr.next != null && curr.next.next != null)
 		{
-			prev = curr.next;
+			prev = prev.next;
 			curr = curr.next.next;
 		}
 		return prev.value;
