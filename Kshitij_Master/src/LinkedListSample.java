@@ -61,8 +61,7 @@ class LinkedL
 			{
 				curr = curr.next;
 			}
-			Node newN = new Node(key);
-			curr.next = newN;
+			curr.next = new Node(key);
 			
 		}
 	}
